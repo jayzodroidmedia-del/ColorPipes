@@ -1,0 +1,68 @@
+# ========================================================
+# Git Ignore Configuration for Color Pipes Project
+# ========================================================
+
+# --------------------------------------------------------
+# 1. Android & Gradle Build Artifacts
+# --------------------------------------------------------
+.gradle/
+build/
+*/build/
+*/*/build/
+buildOutput/
+bin/
+gen/
+out/
+.cxx/
+captures/
+.navigation/
+proguard/
+
+# Built package files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# SDK & Local machine configuration
+local.properties
+
+# Android keystore / signing files (Keep private!)
+*.jks
+*.keystore
+
+# --------------------------------------------------------
+# 2. IDE, Editor & Workspace Files
+# --------------------------------------------------------
+# Android Studio & IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code & Gemini IDE
+.vscode/
+.gemini/
+
+# --------------------------------------------------------
+# 3. PHP Backend, Logs & Secrets
+# --------------------------------------------------------
+*.log
+error_log
+php_errors.log
+.env
+.env.local
+.env.*.local
+
+# --------------------------------------------------------
+# 4. OS Specific Files
+# --------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
